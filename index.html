@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind css project 01</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="shadow-lg py-8">
+        <div class="flex justify-between items-center px-10">
+          <a href="#">
+            <img class="w-20 h-auto  bg-green-600" src="images/logo.svg" alt="">
+          </a>
+          <nav class="hidden sm:block">
+            <ul class="flex gap-6">
+              <li class="hover:text-blue-500 text-white><a href="#">Home</a></li>
+              <li class="hover:text-blue-500 text-white><a href="#">Everything</a></li>
+              <li class="hover:text-blue-500 text-white><a href="#">Groceries</a></li>
+              <li class="hover:text-blue-500 text-white><a href="#">About</a></li>
+              <li class="hover:text-blue-500 text-white><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="flex gap-4 text-lg items-center">
+            <p class="hover:text-pink-500 text-black">$10.00</p>
+            <i class='bx bx-cart hover:text-pink-500 text-black'></i>
+            <i class='bx bx-user hover:text-pink-500 text-black'></i>
+          </div>
+        </div>
+      </header>
+      <section>
+        <div class="grid grid-cols-1 lg:grid-cols-2 py-10 items-center">
+          <div class="pl-10">
+            <img src="images/bannerbg.png" alt="">
+          </div>
+          <div class=" py-5">
+            <p class="">Best qualitie products</p>
+            <h2 class="text-4xl py-5">Join the organic <br> movemont!</h2>
+            <p class="pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ratione officia illo sit sint <br> tenetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, natus.?</p>
+            <button class="bg-green-600 rounded-md py-2 px-4 text-white hover:bg-pink-600"> <i class='bx bx-cart'></i> Shop Now</button>
+          </div>
+        </div>
+      </section>
+      <!-- service-section -->
+       <section class="bg-black">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-14 text-center justify-center text-white">
+           <div class="my-6">
+            <h3 class="text-xl ">Free Shipping</h3>
+            <p>Above $5 only</p>
+          </div>
+          <div class="my-6">
+            <h3 class="text-xl">Certified Organic</h3>
+            <p>100% Organic</p>
+          </div>
+          <div class="my-6">
+            <h3 class="text-xl">Huge Savings</h3>
+            <p>At Lowest Price</p>
+          </div>
+        </div>
+       </section>
+    
+       <!-- banner-section -->
+       <section class="mt-10">
+        <div class="grid grid-cols-1 lg:grid-cols-2 items-center">
+          <div class=" p-5">
+            <h5 class="text-2xl">about Us</h5>
+            <h2 class=" text-base sm:text-lg md:text-xl md:w-full lg:text-5xl py-5 ">tell website visitiors who you are they should choose your business</h2>
+            <p class="py-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae atque unde exercitationem quasi architecto blanditiis asperiores officia? Facilis enim aspernatur vel id. Iste eos sapiente deleniti eligendi beatae fuga sint, reprehenderit dignissimos odit ullam pariatur, ea autem nulla inventore minima eveniet voluptates aliquam, ut dolorum quis totam accusantium in. Quod?</p>
+            <button class="bg-green-600 py-2 px-5 rounded-md text-white hover:bg-blue-600">find out more</button>
+          </div>
+          <div class="">
+            <img src="images/about.jpg" alt="">
+          </div>
+        </div>
+       </section>
+       <!-- sm-banner-section -->
+    
+        <section>
+        <div style="background-image: url(images/call.jpg);
+        width: full; height: auto; align-items: center; justify-content: center; background-repeat: no-repeat; background-position: center; padding:10rem; padding-bottom: 8rem; text-align: center;">
+          <h2 class="text-4xl text-white sm:text-full"<h2>Insert A Call To Action</h2>
+          <p class="text-white py-6">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Aut, nobis?</p>
+          <button class="bg-green-600 py-2 px-5 rounded-md text-white hover:bg-blue-600">Get in Touch</button>
+        </div>
+       </section>
+    
+       <!-- product-section -->
+        <section>
+          <div class="px-16">
+            <h2 class="text-center text-3xl py-16">best Selling Products</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 items-center justify-center w-full">
+              <div class=" text-center pl-5 pb-8 ">
+                <img src="images/product01.jpg" alt="">
+                <h2>Groceries</h2>
+                <h3 class="text-4xl py-8">Assorted Coffee</h3>
+                <div class="flex justify-center">
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                </div>
+                <p class="p-6">$35.00</p>
+                <button class="bg-green-600 py-2 px-6 hover:bg-pink-600 rounded-md text-white">Buy Now</button>
+              </div>
+            
+              <div class=" text-center pl-5 pb-8">
+                <img src="images/product02.jpg" alt="">
+                <h2>Groceries</h2>
+                <h3 class="text-4xl py-8">Assorted Coffee</h3>
+                <div class="flex justify-center">
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                </div>
+                <p class="p-6">$35.00</p>
+                <button class="bg-green-600 py-2 px-6 hover:bg-pink-600 rounded-md text-white">Buy Now</button>
+              </div>
+    
+              <div class=" text-center pl-5 pb-8">
+                <img src="images/product03.jpg" alt="">
+                <h2>Groceries</h2>
+                <h3 class="text-4xl py-8">Assorted Coffee</h3>
+                <div class="flex justify-center">
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                </div>
+                <p class="p-6">$35.00</p>
+                <button class="bg-green-600 py-2 px-6 hover:bg-pink-600 rounded-md text-white">Buy Now</button>
+              </div>
+            
+              <div class=" text-center pl-5 pb-8">
+                <img src="images/product04.jpg" alt="">
+                <h2>Groceries</h2>
+                <h3 class="text-4xl py-8">Assorted Coffee</h3>
+                <div class="flex justify-center">
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                </div>
+                <p class="p-6">$35.00</p>
+                <button class="bg-green-600 py-2 px-6 hover:bg-pink-600 rounded-md text-white">Buy Now</button>
+              </div>
+    
+              <div class=" text-center pl-5 pb-8">
+                <img src="images/product05.jpg" alt="">
+                <h2>Groceries</h2>
+                <h3 class="text-4xl py-8">Assorted Coffee</h3>
+                <div class="flex justify-center">
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                </div>
+                <p class="p-6">$35.00</p>
+                <button class="bg-green-600 py-2 px-6 hover:bg-pink-600 rounded-md text-white">Buy Now</button>
+              </div>
+           
+              <div class=" text-center pl-5 pb-8">
+                <img src="images/product06.jpg" alt="">
+                <h2>Groceries</h2>
+                <h3 class="text-4xl py-8">Assorted Coffee</h3>
+                <div class="flex justify-center">
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                </div>
+                <p class="p-6">$35.00</p>
+                <button class="bg-green-600 py-2 px-6 hover:bg-pink-600 rounded-md text-white">Buy Now</button>
+            </div>
+            <div class=" text-center pl-5 pb-8">
+              <img src="images/product07.jpg" alt="">
+              <h2>Groceries</h2>
+              <h3 class="text-4xl py-8">Assorted Coffee</h3>
+              <div class="flex justify-center">
+                <i class='bx bx-star'></i>
+                <i class='bx bx-star'></i>
+                <i class='bx bx-star'></i>
+                <i class='bx bx-star'></i>
+                <i class='bx bx-star'></i>
+              </div>
+              <p class="p-6">$35.00</p>
+              <button class="bg-green-600 py-2 px-6 hover:bg-pink-600 rounded-md text-white">Buy Now</button>
+            </div>
+            <div class=" text-center pl-5 pb-8">
+              <img src="images/product08.jpg" alt="">
+              <h2>Groceries</h2>
+              <h3 class="text-4xl py-8">Assorted Coffee</h3>
+              <div class="flex justify-center">
+                <i class='bx bx-star'></i>
+                <i class='bx bx-star'></i>
+                <i class='bx bx-star'></i>
+                <i class='bx bx-star'></i>
+                <i class='bx bx-star'></i>
+              </div>
+              <p class="p-6">$35.00</p>
+              <button class="bg-green-600 py-2 px-6 hover:bg-pink-600 rounded-md text-white">Buy Now</button>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      <!-- logo-section -->
+       <section class="my-16">
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 items-center justify-center px-16">
+          <h2>Featured Brand:</h2>
+          <img src="images/logo-1.svg" alt="">
+          <img src="images/logo-2.svg" alt="">
+          <img src="images/logo-3.svg" alt="">
+          <img src="images/logo-4.svg" alt="">
+          <img src="images/logo-5.svg" alt="">
+        </div>
+       </section>
+      <!-- last-sectuon -->
+  
+      <section class="py-10">
+        <div class="grid grid-cols-1 md:grid-cols-2 py-8  lg:grid-cols-4 items-center pl-8 justify-around bg-black text-white py-10">
+          <div>
+            <img src="images/logo-white.png" alt="">
+          </div>
+          <div>
+            <p class="py-6">SERVICES <br>Branding <br> design <br> Marketing <br>Advertisement</p>
+          </div> 
+          <div>
+            <P class="py-6">COMPANY <br> About us <br> Contact <br> Jobs <br>Press kit</P>
+         </div>
+         <div>LEGAL <br> terms of use <br> Privacy Policy <br> cookie policy</div>
+       </div>
+      </section>
+</body>
+</html>
